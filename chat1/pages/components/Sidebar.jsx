@@ -15,6 +15,12 @@ export const Sidebar = () => {
           <ChatIcon/>
           <MoreVertIcon/>
         </IconsContainer>
+
+    <div>Sidebar
+      <Container>
+        <Header>
+
+
         </Header>
       </Container>
     </div>
@@ -28,3 +34,6 @@ const Header = styled.div``;
 const UserAvatar = styled(Avatar)``;
 
 const IconsContainer = styled.div``;
+
+const userAvatar = styled(Avatar)``;
+
