@@ -9,6 +9,12 @@ export const Sidebar = () => {
       <Container>
         <Header>
         <UserAvatar/>
+
+    <div>Sidebar
+      <Container>
+        <Header>
+
+
         </Header>
       </Container>
     </div>
@@ -20,3 +26,4 @@ const Container = styled.div``;
 const Header = styled.div``;
 
 const UserAvatar = styled(Avatar)``;
+const userAvatar = styled(Avatar)``;
