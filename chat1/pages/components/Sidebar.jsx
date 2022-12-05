@@ -4,9 +4,16 @@ import {Avatar} from '@material-ui/core'
 
 export const Sidebar = () => {
   return (
+    <div>
+      Sidebar
+      <Container>
+        <Header>
+        <UserAvatar/>
+
     <div>Sidebar
       <Container>
         <Header>
+
 
         </Header>
       </Container>
@@ -18,4 +25,5 @@ const Container = styled.div``;
 
 const Header = styled.div``;
 
+const UserAvatar = styled(Avatar)``;
 const userAvatar = styled(Avatar)``;
