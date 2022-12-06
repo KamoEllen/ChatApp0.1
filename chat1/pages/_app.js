@@ -8,6 +8,10 @@ function MyApp({ Component, pageProps }) {
    
   if(!user) return <Login/>
  
+
+function MyApp({ Component, pageProps }) {
+
+
   return <Component {...pageProps} />
 }
 
