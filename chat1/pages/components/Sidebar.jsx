@@ -133,7 +133,7 @@ cursor: pointer;
 `;
 
 const IconsContainer = styled.div``;
-=======
+const IconsContainer = styled.div``;
 const IconsContainer = styled.div``;
 
 const IconsContainer = styled.div``;

@@ -1,6 +1,9 @@
 import '../styles/globals.css'
 import {useAuthState} from 'react-firebase-hooks/auth'
+import {auth, db } from './firebase'
+
 import {auth, db } from '../firebase'
+
 
 
 function MyApp({ Component, pageProps }) {
@@ -10,7 +13,6 @@ function MyApp({ Component, pageProps }) {
  
 
 function MyApp({ Component, pageProps }) {
-
 
   return <Component {...pageProps} />
 }
