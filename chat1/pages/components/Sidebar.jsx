@@ -20,7 +20,6 @@ export const Sidebar = () => {
   }; 
 
 
-
 import React from 'react'
 import styled from 'styled-components'
 import {Avatar} from '@material-ui/core'
@@ -29,6 +28,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
 export const Sidebar = () => {
+
 
 
 
@@ -52,8 +52,8 @@ export const Sidebar = () => {
           <SearchInput placeholder="search in chats"/>
           <SidebarButton onClick={createChat}>
 
-
           <SidebarButton>
+
 
 
 
@@ -62,7 +62,6 @@ export const Sidebar = () => {
           </SidebarButton>
         </Search>
         {/*list of chats*/}
-
 
 
           <ChatIcon/>
@@ -75,6 +74,7 @@ export const Sidebar = () => {
 
 
         </Header>
+
 
 
 
@@ -133,6 +133,8 @@ cursor: pointer;
 `;
 
 const IconsContainer = styled.div``;
+=======
+const IconsContainer = styled.div``;
 
 const IconsContainer = styled.div``;
 const IconsContainer = styled.div``;
@@ -147,6 +149,7 @@ const UserAvatar = styled(Avatar)``;
 const IconsContainer = styled.div``;
 
 const userAvatar = styled(Avatar)``;
+
 
 
 
