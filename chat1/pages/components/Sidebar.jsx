@@ -5,6 +5,13 @@ import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 
+import React from 'react'
+import styled from 'styled-components'
+import {Avatar} from '@material-ui/core'
+import ChatIcon from '@material-ui/icons/Chat';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+
+
 export const Sidebar = () => {
   return (
     <div>
@@ -28,6 +35,18 @@ export const Sidebar = () => {
           </SidebarButton>
         </Search>
         {/*list of chats*/}
+
+          <ChatIcon/>
+          <MoreVertIcon/>
+        </IconsContainer>
+
+    <div>Sidebar
+      <Container>
+        <Header>
+
+
+        </Header>
+
       </Container>
     </div>
   )
@@ -81,3 +100,12 @@ cursor: pointer;
 `;
 
 const IconsContainer = styled.div``;
+
+const Header = styled.div``;
+
+const UserAvatar = styled(Avatar)``;
+
+const IconsContainer = styled.div``;
+
+const userAvatar = styled(Avatar)``;
+
