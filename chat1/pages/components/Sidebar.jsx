@@ -4,6 +4,21 @@ import {Avatar, Button, IconButton} from '@material-ui/core'
 import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
+import * as EmailValidator from 'email-validator';
+
+export const Sidebar = () => {
+  const createChat = () => {
+    const input= prompt (
+     "Please enter an email address for the user you wish to chat with"
+    );
+   if (!input) return null;
+
+   if (EmailValidator.validate(input)) {
+    //We need to add the chat into the db 'chats' collection
+    
+   }
+  }; 
+
 
 import React from 'react'
 import styled from 'styled-components'
@@ -13,6 +28,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
 export const Sidebar = () => {
+
   return (
     <div>
       Sidebar
@@ -30,11 +46,15 @@ export const Sidebar = () => {
         <Search>
           <SearchIcon/>
           <SearchInput placeholder="search in chats"/>
+          <SidebarButton onClick={createChat}>
+
           <SidebarButton>
+
             Start a new chat
           </SidebarButton>
         </Search>
         {/*list of chats*/}
+
 
           <ChatIcon/>
           <MoreVertIcon/>
@@ -46,6 +66,7 @@ export const Sidebar = () => {
 
 
         </Header>
+
 
       </Container>
     </div>
@@ -98,6 +119,8 @@ cursor: pointer;
 
 }
 `;
+
+const IconsContainer = styled.div``;
 
 const IconsContainer = styled.div``;
 
