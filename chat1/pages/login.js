@@ -14,6 +14,10 @@ const login = () => {
         />
         <Button variant="outlined">Sign in with gmail</Button>
       </LoginContainer>
+
+      </LoginContainer>
+
+
     </Container>
   )
 }
@@ -37,3 +41,10 @@ width: 200px;
 margin-bottom: 50px;
 
 `;
+
+const Container = styled.div``;
+
+const LoginContainer = styled.div``;
+
+const Logo = styled.div``;
+
