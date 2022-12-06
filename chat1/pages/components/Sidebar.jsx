@@ -29,6 +29,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 export const Sidebar = () => {
 
+
   return (
     <div>
       Sidebar
@@ -50,6 +51,7 @@ export const Sidebar = () => {
 
           <SidebarButton>
 
+
             Start a new chat
           </SidebarButton>
         </Search>
@@ -66,6 +68,7 @@ export const Sidebar = () => {
 
 
         </Header>
+
 
 
       </Container>
@@ -121,6 +124,7 @@ cursor: pointer;
 `;
 
 const IconsContainer = styled.div``;
+const IconsContainer = styled.div``;
 
 const IconsContainer = styled.div``;
 
@@ -131,4 +135,5 @@ const UserAvatar = styled(Avatar)``;
 const IconsContainer = styled.div``;
 
 const userAvatar = styled(Avatar)``;
+
 
